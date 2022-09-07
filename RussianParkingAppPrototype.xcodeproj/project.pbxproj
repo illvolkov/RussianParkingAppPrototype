@@ -11,6 +11,7 @@
 		047933A128C898B60005C601 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933A028C898B60005C601 /* MapPresenter.swift */; };
 		047933A328C899400005C601 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933A228C899400005C601 /* MapInteractor.swift */; };
 		047933A528C899820005C601 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933A428C899820005C601 /* MapRouter.swift */; };
+		047933A828C8A3DE0005C601 /* UIColor + Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933A728C8A3DE0005C601 /* UIColor + Extenstion.swift */; };
 		049035E528C7386A0024B859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049035E428C7386A0024B859 /* AppDelegate.swift */; };
 		049035E928C7386A0024B859 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049035E828C7386A0024B859 /* MapController.swift */; };
 		049035EE28C7386D0024B859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049035ED28C7386D0024B859 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		047933A028C898B60005C601 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
 		047933A228C899400005C601 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
 		047933A428C899820005C601 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		047933A728C8A3DE0005C601 /* UIColor + Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extenstion.swift"; sourceTree = "<group>"; };
 		049035E128C7386A0024B859 /* RussianParkingAppPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussianParkingAppPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049035E428C7386A0024B859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		049035E828C7386A0024B859 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047933A628C8A3C90005C601 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				047933A728C8A3DE0005C601 /* UIColor + Extenstion.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		049035D828C7386A0024B859 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		049035E328C7386A0024B859 /* RussianParkingAppPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				047933A628C8A3C90005C601 /* Extensions */,
 				049035F928C73A010024B859 /* App */,
 				049035F828C739E30024B859 /* Resources */,
 			);
@@ -208,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				049035E928C7386A0024B859 /* MapController.swift in Sources */,
+				047933A828C8A3DE0005C601 /* UIColor + Extenstion.swift in Sources */,
 				049035E528C7386A0024B859 /* AppDelegate.swift in Sources */,
 				0479339F28C8980A0005C601 /* MapModuleConfigurator.swift in Sources */,
 				047933A328C899400005C601 /* MapInteractor.swift in Sources */,

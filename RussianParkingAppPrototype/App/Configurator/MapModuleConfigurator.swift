@@ -5,8 +5,6 @@
 //  Created by Ilya Volkov on 07.09.2022.
 //
 
-import Foundation
-
 protocol MapModuleConfiguratorProtocol {
     func configure(with viewController: MapController)
 }

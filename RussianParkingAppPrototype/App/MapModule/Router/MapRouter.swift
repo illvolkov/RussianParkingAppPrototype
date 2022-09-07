@@ -10,7 +10,12 @@ protocol MapRouterProtocol: AnyObject {
 }
 
 class MapRouter: MapRouterProtocol {
+    
+    //MARK: - Global properties
+    
     weak var viewController: MapControllerProtocol?
+    
+    //MARK: - Initial
     
     init(viewController: MapControllerProtocol) {
         self.viewController = viewController

@@ -5,8 +5,6 @@
 //  Created by Ilya Volkov on 07.09.2022.
 //
 
-import UIKit
-
 protocol MapPresenterProtocol: AnyObject {
     
 }
