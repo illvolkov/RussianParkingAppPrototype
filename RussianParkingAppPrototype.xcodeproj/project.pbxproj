@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		049035E528C7386A0024B859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049035E428C7386A0024B859 /* AppDelegate.swift */; };
-		049035E728C7386A0024B859 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049035E628C7386A0024B859 /* SceneDelegate.swift */; };
-		049035E928C7386A0024B859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049035E828C7386A0024B859 /* ViewController.swift */; };
-		049035EC28C7386A0024B859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049035EA28C7386A0024B859 /* Main.storyboard */; };
+		049035E928C7386A0024B859 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049035E828C7386A0024B859 /* MapController.swift */; };
 		049035EE28C7386D0024B859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049035ED28C7386D0024B859 /* Assets.xcassets */; };
 		049035F128C7386D0024B859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049035EF28C7386D0024B859 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		049035E128C7386A0024B859 /* RussianParkingAppPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussianParkingAppPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049035E428C7386A0024B859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		049035E628C7386A0024B859 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		049035E828C7386A0024B859 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		049035EB28C7386A0024B859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049035E828C7386A0024B859 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		049035ED28C7386D0024B859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049035F028C7386D0024B859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049035F228C7386D0024B859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,15 +52,77 @@
 		049035E328C7386A0024B859 /* RussianParkingAppPrototype */ = {
 			isa = PBXGroup;
 			children = (
-				049035E428C7386A0024B859 /* AppDelegate.swift */,
-				049035E628C7386A0024B859 /* SceneDelegate.swift */,
-				049035E828C7386A0024B859 /* ViewController.swift */,
-				049035EA28C7386A0024B859 /* Main.storyboard */,
+				049035F928C73A010024B859 /* App */,
+				049035F828C739E30024B859 /* Resources */,
+			);
+			path = RussianParkingAppPrototype;
+			sourceTree = "<group>";
+		};
+		049035F828C739E30024B859 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				049035ED28C7386D0024B859 /* Assets.xcassets */,
 				049035EF28C7386D0024B859 /* LaunchScreen.storyboard */,
 				049035F228C7386D0024B859 /* Info.plist */,
 			);
-			path = RussianParkingAppPrototype;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		049035F928C73A010024B859 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				049035E428C7386A0024B859 /* AppDelegate.swift */,
+				0490360028C73D1D0024B859 /* Configurator */,
+				049035FA28C73A0E0024B859 /* MapModule */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		049035FA28C73A0E0024B859 /* MapModule */ = {
+			isa = PBXGroup;
+			children = (
+				049035FF28C73C0E0024B859 /* Router */,
+				049035FD28C73BC60024B859 /* Interactor */,
+				049035FC28C73BC00024B859 /* Presenter */,
+				049035FB28C73BB90024B859 /* View */,
+			);
+			path = MapModule;
+			sourceTree = "<group>";
+		};
+		049035FB28C73BB90024B859 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				049035E828C7386A0024B859 /* MapController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		049035FC28C73BC00024B859 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		049035FD28C73BC60024B859 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		049035FF28C73C0E0024B859 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0490360028C73D1D0024B859 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +185,6 @@
 			files = (
 				049035F128C7386D0024B859 /* LaunchScreen.storyboard in Resources */,
 				049035EE28C7386D0024B859 /* Assets.xcassets in Resources */,
-				049035EC28C7386A0024B859 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049035E928C7386A0024B859 /* ViewController.swift in Sources */,
+				049035E928C7386A0024B859 /* MapController.swift in Sources */,
 				049035E528C7386A0024B859 /* AppDelegate.swift in Sources */,
-				049035E728C7386A0024B859 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		049035EA28C7386A0024B859 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				049035EB28C7386A0024B859 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		049035EF28C7386D0024B859 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +337,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34TG2Y4HBL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RussianParkingAppPrototype/Info.plist;
+				INFOPLIST_FILE = RussianParkingAppPrototype/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,12 +365,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34TG2Y4HBL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RussianParkingAppPrototype/Info.plist;
+				INFOPLIST_FILE = RussianParkingAppPrototype/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
