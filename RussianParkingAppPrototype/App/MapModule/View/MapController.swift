@@ -7,10 +7,39 @@
 
 import UIKit
 
-class MapController: UIViewController {
+protocol MapControllerProtocol: AnyObject {
+    
+}
+
+class MapController: UIViewController, MapControllerProtocol {
+    
+    //MARK: - Global properties
+    
+    var presenter: MapPresenterProtocol?
+    let mapModuleConfigurator: MapModuleConfiguratorProtocol = MapModuleConfigurator()
+    
+    //MARK: - Views
+    
+    
+    
+    //MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        mapModuleConfigurator.configure(with: self)
+        
+        setupHierarchy()
+        setupLayout()
+    }
+    
+    //MARK: - Settings
+    
+    private func setupHierarchy() {
+        
+    }
+    
+    private func setupLayout() {
         
     }
 }
