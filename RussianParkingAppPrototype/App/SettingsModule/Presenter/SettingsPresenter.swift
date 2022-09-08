@@ -6,7 +6,9 @@
 //
 
 protocol SettingsPresenterProtocol: AnyObject {
-    
+    func get(data: [SettingSection])
+    func configureView()
+    func handleCloseButton()
 }
 
 class SettingsPresenter: SettingsPresenterProtocol {
@@ -21,5 +23,19 @@ class SettingsPresenter: SettingsPresenterProtocol {
     
     init(viewController: SettingsControllerProtocol) {
         self.viewController = viewController
+    }
+    
+    //MARK: - SettingsPresenterProtocol methods
+    
+    func configureView() {
+        interactor?.takeData()
+    }
+    
+    func get(data: [SettingSection]) {
+        viewController?.configure(data: data)
+    }
+    
+    func handleCloseButton() {
+        router?.closeSettingsModule()
     }
 }

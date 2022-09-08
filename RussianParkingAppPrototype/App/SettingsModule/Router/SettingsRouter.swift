@@ -6,7 +6,7 @@
 //
 
 protocol SettingsRouterProtocol: AnyObject {
-    
+    func closeSettingsModule()
 }
 
 class SettingsRouter: SettingsRouterProtocol {
@@ -19,5 +19,9 @@ class SettingsRouter: SettingsRouterProtocol {
     
     init(viewController: SettingsControllerProtocol) {
         self.viewController = viewController
+    }
+    
+    func closeSettingsModule() {
+        viewController?.dismissModule()
     }
 }

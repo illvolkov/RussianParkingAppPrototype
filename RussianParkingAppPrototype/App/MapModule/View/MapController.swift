@@ -9,7 +9,7 @@ import UIKit
 import MapKit
 
 protocol MapControllerProtocol: AnyObject {
-    
+    func presentSettingsModule()
 }
 
 class MapController: UIViewController, MapControllerProtocol {
@@ -36,6 +36,7 @@ class MapController: UIViewController, MapControllerProtocol {
         settingsButton.tintColor = .white
         settingsButton.layer.cornerRadius = view.frame.width * 0.055
         settingsButton.layer.masksToBounds = true
+        settingsButton.addTarget(self, action: #selector(settingsButtonDidTap), for: .touchUpInside)
         return settingsButton
     }()
     
@@ -52,7 +53,7 @@ class MapController: UIViewController, MapControllerProtocol {
     private lazy var accountButton: UIButton = {
         let button = UIButton(type: .system)
         let randomTitle = Int.random(in: 0...1000)
-        button.setTitle("\(String(randomTitle))" + " ₽", for: .normal)
+        button.setTitle("\(String(randomTitle)) ₽", for: .normal)
         button.setTitleColor(.black, for: .normal)
         button.titleLabel?.font = .systemFont(ofSize: view.frame.width * 0.05)
         button.backgroundColor = .white
@@ -210,6 +211,19 @@ class MapController: UIViewController, MapControllerProtocol {
         button.layer.cornerRadius = view.frame.width * 0.055
         button.alpha = 0.9
         return button
+    }
+    
+    //MARK: - MapControllerProtocol methods
+    
+    func presentSettingsModule() {
+        let nav = UINavigationController(rootViewController: SettingsController())
+        present(nav, animated: true)
+    }
+    
+    //MARK: - Actions
+    
+    @objc private func settingsButtonDidTap() {
+        presenter?.handleSettingsButton()
     }
 }
 

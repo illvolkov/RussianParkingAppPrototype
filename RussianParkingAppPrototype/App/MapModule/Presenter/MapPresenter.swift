@@ -6,7 +6,7 @@
 //
 
 protocol MapPresenterProtocol: AnyObject {
-    
+    func handleSettingsButton()
 }
 
 class MapPresenter: MapPresenterProtocol {
@@ -21,5 +21,11 @@ class MapPresenter: MapPresenterProtocol {
     
     init(viewController: MapControllerProtocol) {
         self.viewController = viewController
+    }
+    
+    //MARK: - MapPresenterProtocol methods
+    
+    func handleSettingsButton() {
+        router?.goToSettingsModule()
     }
 }

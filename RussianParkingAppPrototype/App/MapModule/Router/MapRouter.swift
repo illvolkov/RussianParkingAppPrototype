@@ -6,7 +6,7 @@
 //
 
 protocol MapRouterProtocol: AnyObject {
-    
+    func goToSettingsModule()
 }
 
 class MapRouter: MapRouterProtocol {
@@ -19,5 +19,11 @@ class MapRouter: MapRouterProtocol {
     
     init(viewController: MapControllerProtocol) {
         self.viewController = viewController
+    }
+    
+    //MARK: - MapRouterProtocol methods
+    
+    func goToSettingsModule() {
+        viewController?.presentSettingsModule()
     }
 }
