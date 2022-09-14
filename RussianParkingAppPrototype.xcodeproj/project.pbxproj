@@ -7,20 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0479339F28C8980A0005C601 /* MapModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479339E28C8980A0005C601 /* MapModuleConfigurator.swift */; };
+		047933A128C898B60005C601 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933A028C898B60005C601 /* MapPresenter.swift */; };
+		047933A328C899400005C601 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933A228C899400005C601 /* MapInteractor.swift */; };
+		047933A528C899820005C601 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933A428C899820005C601 /* MapRouter.swift */; };
+		047933A828C8A3DE0005C601 /* UIColor + Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933A728C8A3DE0005C601 /* UIColor + Extenstion.swift */; };
+		047933B028C8EE180005C601 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933AF28C8EE180005C601 /* SettingsController.swift */; };
+		047933B228C8EE4F0005C601 /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933B128C8EE4F0005C601 /* SettingsPresenter.swift */; };
+		047933B428C8EEF80005C601 /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933B328C8EEF80005C601 /* SettingsInteractor.swift */; };
+		047933B628C8EF470005C601 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933B528C8EF470005C601 /* SettingsRouter.swift */; };
+		047933B828C8EFA10005C601 /* SettingsModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933B728C8EFA10005C601 /* SettingsModuleConfigurator.swift */; };
+		047933BA28C8F2240005C601 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933B928C8F2240005C601 /* SettingTableViewCell.swift */; };
+		047933BC28C8F7D90005C601 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933BB28C8F7D90005C601 /* Setting.swift */; };
+		047933BE28C8F8C40005C601 /* SettingSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933BD28C8F8C40005C601 /* SettingSection.swift */; };
+		047933C028C8F8E30005C601 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047933BF28C8F8E30005C601 /* Settings.swift */; };
 		049035E528C7386A0024B859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049035E428C7386A0024B859 /* AppDelegate.swift */; };
-		049035E728C7386A0024B859 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049035E628C7386A0024B859 /* SceneDelegate.swift */; };
-		049035E928C7386A0024B859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049035E828C7386A0024B859 /* ViewController.swift */; };
-		049035EC28C7386A0024B859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049035EA28C7386A0024B859 /* Main.storyboard */; };
+		049035E928C7386A0024B859 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049035E828C7386A0024B859 /* MapController.swift */; };
 		049035EE28C7386D0024B859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049035ED28C7386D0024B859 /* Assets.xcassets */; };
 		049035F128C7386D0024B859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049035EF28C7386D0024B859 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0479339E28C8980A0005C601 /* MapModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModuleConfigurator.swift; sourceTree = "<group>"; };
+		047933A028C898B60005C601 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		047933A228C899400005C601 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		047933A428C899820005C601 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		047933A728C8A3DE0005C601 /* UIColor + Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extenstion.swift"; sourceTree = "<group>"; };
+		047933AF28C8EE180005C601 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		047933B128C8EE4F0005C601 /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
+		047933B328C8EEF80005C601 /* SettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInteractor.swift; sourceTree = "<group>"; };
+		047933B528C8EF470005C601 /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
+		047933B728C8EFA10005C601 /* SettingsModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModuleConfigurator.swift; sourceTree = "<group>"; };
+		047933B928C8F2240005C601 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		047933BB28C8F7D90005C601 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		047933BD28C8F8C40005C601 /* SettingSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSection.swift; sourceTree = "<group>"; };
+		047933BF28C8F8E30005C601 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		049035E128C7386A0024B859 /* RussianParkingAppPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussianParkingAppPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049035E428C7386A0024B859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		049035E628C7386A0024B859 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		049035E828C7386A0024B859 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		049035EB28C7386A0024B859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		049035E828C7386A0024B859 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		049035ED28C7386D0024B859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049035F028C7386D0024B859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049035F228C7386D0024B859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +61,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		047933A628C8A3C90005C601 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				047933A728C8A3DE0005C601 /* UIColor + Extenstion.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		047933A928C8EDB10005C601 /* SettingsModule */ = {
+			isa = PBXGroup;
+			children = (
+				047933AE28C8EDFE0005C601 /* Entity */,
+				047933AD28C8EDF20005C601 /* Router */,
+				047933AC28C8EDED0005C601 /* Interactor */,
+				047933AB28C8EDE70005C601 /* Presenter */,
+				047933AA28C8EDE20005C601 /* View */,
+			);
+			path = SettingsModule;
+			sourceTree = "<group>";
+		};
+		047933AA28C8EDE20005C601 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				047933AF28C8EE180005C601 /* SettingsController.swift */,
+				047933B928C8F2240005C601 /* SettingTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		047933AB28C8EDE70005C601 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				047933B128C8EE4F0005C601 /* SettingsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		047933AC28C8EDED0005C601 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				047933B328C8EEF80005C601 /* SettingsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		047933AD28C8EDF20005C601 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				047933B528C8EF470005C601 /* SettingsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		047933AE28C8EDFE0005C601 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				047933BB28C8F7D90005C601 /* Setting.swift */,
+				047933BD28C8F8C40005C601 /* SettingSection.swift */,
+				047933BF28C8F8E30005C601 /* Settings.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 		049035D828C7386A0024B859 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +143,84 @@
 		049035E328C7386A0024B859 /* RussianParkingAppPrototype */ = {
 			isa = PBXGroup;
 			children = (
-				049035E428C7386A0024B859 /* AppDelegate.swift */,
-				049035E628C7386A0024B859 /* SceneDelegate.swift */,
-				049035E828C7386A0024B859 /* ViewController.swift */,
-				049035EA28C7386A0024B859 /* Main.storyboard */,
+				047933A628C8A3C90005C601 /* Extensions */,
+				049035F928C73A010024B859 /* App */,
+				049035F828C739E30024B859 /* Resources */,
+			);
+			path = RussianParkingAppPrototype;
+			sourceTree = "<group>";
+		};
+		049035F828C739E30024B859 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				049035ED28C7386D0024B859 /* Assets.xcassets */,
 				049035EF28C7386D0024B859 /* LaunchScreen.storyboard */,
 				049035F228C7386D0024B859 /* Info.plist */,
 			);
-			path = RussianParkingAppPrototype;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		049035F928C73A010024B859 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				049035E428C7386A0024B859 /* AppDelegate.swift */,
+				0490360028C73D1D0024B859 /* Configurator */,
+				047933A928C8EDB10005C601 /* SettingsModule */,
+				049035FA28C73A0E0024B859 /* MapModule */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		049035FA28C73A0E0024B859 /* MapModule */ = {
+			isa = PBXGroup;
+			children = (
+				049035FF28C73C0E0024B859 /* Router */,
+				049035FD28C73BC60024B859 /* Interactor */,
+				049035FC28C73BC00024B859 /* Presenter */,
+				049035FB28C73BB90024B859 /* View */,
+			);
+			path = MapModule;
+			sourceTree = "<group>";
+		};
+		049035FB28C73BB90024B859 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				049035E828C7386A0024B859 /* MapController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		049035FC28C73BC00024B859 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				047933A028C898B60005C601 /* MapPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		049035FD28C73BC60024B859 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				047933A228C899400005C601 /* MapInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		049035FF28C73C0E0024B859 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				047933A428C899820005C601 /* MapRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		0490360028C73D1D0024B859 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				047933B728C8EFA10005C601 /* SettingsModuleConfigurator.swift */,
+				0479339E28C8980A0005C601 /* MapModuleConfigurator.swift */,
+			);
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +283,6 @@
 			files = (
 				049035F128C7386D0024B859 /* LaunchScreen.storyboard in Resources */,
 				049035EE28C7386D0024B859 /* Assets.xcassets in Resources */,
-				049035EC28C7386A0024B859 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +293,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				049035E928C7386A0024B859 /* ViewController.swift in Sources */,
+				047933B028C8EE180005C601 /* SettingsController.swift in Sources */,
+				049035E928C7386A0024B859 /* MapController.swift in Sources */,
+				047933A828C8A3DE0005C601 /* UIColor + Extenstion.swift in Sources */,
+				047933B428C8EEF80005C601 /* SettingsInteractor.swift in Sources */,
+				047933BC28C8F7D90005C601 /* Setting.swift in Sources */,
+				047933B628C8EF470005C601 /* SettingsRouter.swift in Sources */,
+				047933C028C8F8E30005C601 /* Settings.swift in Sources */,
 				049035E528C7386A0024B859 /* AppDelegate.swift in Sources */,
-				049035E728C7386A0024B859 /* SceneDelegate.swift in Sources */,
+				047933B828C8EFA10005C601 /* SettingsModuleConfigurator.swift in Sources */,
+				0479339F28C8980A0005C601 /* MapModuleConfigurator.swift in Sources */,
+				047933BA28C8F2240005C601 /* SettingTableViewCell.swift in Sources */,
+				047933B228C8EE4F0005C601 /* SettingsPresenter.swift in Sources */,
+				047933A328C899400005C601 /* MapInteractor.swift in Sources */,
+				047933A128C898B60005C601 /* MapPresenter.swift in Sources */,
+				047933A528C899820005C601 /* MapRouter.swift in Sources */,
+				047933BE28C8F8C40005C601 /* SettingSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		049035EA28C7386A0024B859 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				049035EB28C7386A0024B859 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		049035EF28C7386D0024B859 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +449,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34TG2Y4HBL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RussianParkingAppPrototype/Info.plist;
+				INFOPLIST_FILE = RussianParkingAppPrototype/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,12 +477,12 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34TG2Y4HBL;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = RussianParkingAppPrototype/Info.plist;
+				INFOPLIST_FILE = RussianParkingAppPrototype/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
